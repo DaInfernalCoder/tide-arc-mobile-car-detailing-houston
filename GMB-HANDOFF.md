@@ -36,8 +36,8 @@ Tide Arc Mobile Car Detailing Houston helps Houston drivers arrange careful inte
 
 ## Blocker
 
-Phone and address are required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
+Explicit approval to publish this site's source and safe handoff documentation in a public GitHub repository is required before deployment. Phone and address are separately required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
 
 ## Exact next action
 
-Create the public GitHub repository, deploy to Vercel, attach apex and `www`, and save the Vercel nameservers at Spaceship.
+After explicit public-repository approval, create and push the GitHub repository, deploy to Vercel, attach apex and `www`, and save the Vercel nameservers at Spaceship.
