@@ -34,7 +34,7 @@ Phone and street address have not been supplied. Do not invent them. Licensed st
 - [x] Apex and `www` attached; registrar DNS saved
 - [ ] Phone supplied and call links completed
 - [ ] Address supplied and final `GMB-INFO.txt` completed
-- [ ] GMB image pack completed
+- [x] Phone/address-independent logo and photo pack completed
 - [ ] GeoStamp synced
 
 ## Draft GBP description
@@ -43,8 +43,8 @@ Tide Arc Mobile Car Detailing Houston helps Houston drivers arrange careful inte
 
 ## Blocker
 
-Phone and address are required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
+Phone and address are required for the public call links, final `GMB-INFO.txt`, and GeoStamp completion.
 
 ## Exact next action
 
-Await the public phone and confirmed street address. In a later run, verify propagated apex and `www` once, then complete call links, `GMB-INFO.txt`, the GMB image pack, and GeoStamp.
+Await the public phone and confirmed street address. In a later run, verify propagated apex and `www` once, then complete call links, `GMB-INFO.txt`, and GeoStamp.
