@@ -12,6 +12,7 @@ Create and launch Tide Arc Mobile Car Detailing Houston as site 23 of the 100-si
 - Registration defaults: 1 year, high privacy with consent, auto-renew off
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Build method: cloned from a validated site family through `scripts/scaffold_sites_from_csv.py`
+- Automated public GitHub publication, Vercel deployment, custom-host attachment, and DNS changes: authorized by the approved-domain batch workflow
 
 ## Truth constraints
 
@@ -36,8 +37,8 @@ Tide Arc Mobile Car Detailing Houston helps Houston drivers arrange careful inte
 
 ## Blocker
 
-Explicit approval to publish this site's source and safe handoff documentation in a public GitHub repository is required before deployment. Phone and address are separately required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
+Phone and address are required for the public call links, final `GMB-INFO.txt`, GMB image pack, and GeoStamp completion.
 
 ## Exact next action
 
-After explicit public-repository approval, create and push the GitHub repository, deploy to Vercel, attach apex and `www`, and save the Vercel nameservers at Spaceship.
+Create and push the public GitHub repository, deploy to Vercel, attach apex and `www`, and save the Vercel nameservers at Spaceship.
