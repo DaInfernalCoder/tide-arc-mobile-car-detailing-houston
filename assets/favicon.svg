@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Tide Arc logo</title>
+  <desc id="desc">A cooling ember line moving through four finish stages</desc>
+  <rect width="96" height="96" rx="18" fill="#191B1D"/>
+  <path d="M16 68c10-28 20-40 31-40 12 0 11 40 24 40 5 0 8-5 9-14" fill="none" stroke="#D85E32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M47 28c12 0 11 40 24 40 5 0 8-5 9-14" fill="none" stroke="#4E9BA6" stroke-width="8" stroke-linecap="round" stroke-dasharray="24 60"/>
+  <circle cx="16" cy="68" r="6" fill="#F2B84B" stroke="#F7F6F2" stroke-width="3"/>
+  <circle cx="80" cy="54" r="6" fill="#CBD4D6" stroke="#F7F6F2" stroke-width="3"/>
+</svg>
