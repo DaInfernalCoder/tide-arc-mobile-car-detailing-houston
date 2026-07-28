@@ -13,6 +13,12 @@ Create and launch Tide Arc Mobile Car Detailing Houston as site 23 of the 100-si
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Build method: cloned from a validated site family through `scripts/scaffold_sites_from_csv.py`
 - Automated public GitHub publication, Vercel deployment, custom-host attachment, and DNS changes: authorized by the approved-domain batch workflow
+- GitHub: https://github.com/DaInfernalCoder/tide-arc-mobile-car-detailing-houston
+- Vercel project: https://vercel.com/dainfernalcoders-projects/tide-arc-mobile-car-detailing-houston
+- Production fallback: https://tide-arc-mobile-car-detailing-houst.vercel.app
+- Attached custom hosts: `tidearc.shop`, `www.tidearc.shop`
+- Registrar nameservers saved: `ns1.vercel-dns.com`, `ns2.vercel-dns.com`
+- Custom-domain DNS and HTTPS: propagation pending
 
 ## Truth constraints
 
@@ -24,8 +30,8 @@ Phone and street address have not been supplied. Do not invent them. Licensed st
 - [x] Exact domain and price approved
 - [x] Domain registered
 - [x] Local preflight and browser QA passed
-- [ ] Public GitHub repository and Vercel production project created
-- [ ] Apex and `www` attached; registrar DNS saved
+- [x] Public GitHub repository and Vercel production project created
+- [x] Apex and `www` attached; registrar DNS saved
 - [ ] Phone supplied and call links completed
 - [ ] Address supplied and final `GMB-INFO.txt` completed
 - [ ] GMB image pack completed
@@ -41,4 +47,4 @@ Phone and address are required for the public call links, final `GMB-INFO.txt`, 
 
 ## Exact next action
 
-Create and push the public GitHub repository, deploy to Vercel, attach apex and `www`, and save the Vercel nameservers at Spaceship.
+Await the public phone and confirmed street address. In a later run, verify propagated apex and `www` once, then complete call links, `GMB-INFO.txt`, the GMB image pack, and GeoStamp.
