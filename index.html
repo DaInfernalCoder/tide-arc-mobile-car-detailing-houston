@@ -37,11 +37,36 @@
       "@type": "OfferCatalog",
       "name": "Car detailing services",
       "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Interior car detailing"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Exterior car detailing"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Complete car detailing"}}
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Interior car detailing"
+          },
+          "price": "200",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Exterior car detailing"
+          },
+          "price": "250",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Complete car detailing"
+          },
+          "price": "250",
+          "priceCurrency": "USD"
+        }
       ]
-    }
+    },
+    "priceRange": "$200-$250"
   }
   </script>
 </head>
@@ -143,6 +168,7 @@
           <div class="service-content">
             <p class="service-code">MR / 01</p>
             <h3>Interior car detailing</h3>
+            <p class="service-price">$200</p>
             <p>Focus attention on the spaces drivers and passengers see, touch, and use.</p>
             <ul>
               <li>Seats, floors, and reachable seams</li>
@@ -160,6 +186,7 @@
           <div class="service-content">
             <p class="service-code">MR / 02</p>
             <h3>Exterior car detailing</h3>
+            <p class="service-price">$250<span>Includes shampoo</span></p>
             <p>Address the body, glass, wheels, tires, and the road film carried across them.</p>
             <ul>
               <li>Painted surfaces and exterior glass</li>
@@ -177,6 +204,7 @@
           <div class="service-content">
             <p class="service-code">MR / 03</p>
             <h3>Complete car detailing</h3>
+            <p class="service-price">$250</p>
             <p>Combine cabin and exterior attention when both sides of the vehicle need work.</p>
             <ul>
               <li>Interior and exterior in one visit</li>
@@ -310,8 +338,8 @@
           <p>Share the vehicle type, what you can see now, any areas that need focused attention, and where the vehicle will be for the visit.</p>
         </details>
         <details>
-          <summary>Why are prices not listed here?</summary>
-          <p>Vehicle size, condition, and the requested scope vary. Discuss the vehicle by phone or through the booking path before the visit is confirmed.</p>
+          <summary>How much does a detail cost?</summary>
+          <p>Interior car detailing starts at $200. Exterior car detailing is $250 and includes shampoo. Complete car detailing is $250. Vehicle size and condition can affect the final scope, so confirm the details when you call or book.</p>
         </details>
       </div>
     </section>
