@@ -9,6 +9,8 @@ Create and launch Tide Arc Mobile Car Detailing Houston as site 23 of the 100-si
 - Service: Mobile Car Detailing
 - Market: Houston, Texas
 - Registered domain: `tidearc.shop`
+- Public phone: `+1 346-623-5658`
+- Street address: `1421 FM359, Richmond, TX 77406`
 - Registration defaults: 1 year, high privacy with consent, auto-renew off
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Build method: cloned from a validated site family through `scripts/scaffold_sites_from_csv.py`
@@ -22,7 +24,7 @@ Create and launch Tide Arc Mobile Car Detailing Houston as site 23 of the 100-si
 
 ## Truth constraints
 
-Phone and street address have not been supplied. Do not invent them. Licensed stock imagery is illustrative and must not be presented as completed Tide Arc work.
+The public phone and street address are confirmed as supplied by the owner. Licensed stock imagery is illustrative and must not be presented as completed Tide Arc work.
 
 ## Acceptance checklist
 
@@ -32,8 +34,10 @@ Phone and street address have not been supplied. Do not invent them. Licensed st
 - [x] Local preflight and browser QA passed
 - [x] Public GitHub repository and Vercel production project created
 - [x] Apex and `www` attached; registrar DNS saved
-- [ ] Phone supplied and call links completed
-- [ ] Address supplied and final `GMB-INFO.txt` completed
+- [x] Phone supplied
+- [x] Call links completed
+- [x] Address supplied
+- [x] Final `GMB-INFO.txt` completed
 - [x] Phone/address-independent logo and photo pack completed
 - [ ] GeoStamp synced
 
@@ -43,8 +47,8 @@ Tide Arc Mobile Car Detailing Houston helps Houston drivers arrange careful inte
 
 ## Blocker
 
-Phone and address are required for the public call links, final `GMB-INFO.txt`, and GeoStamp completion.
+Custom DNS/HTTPS propagation still needs a production recheck. GeoStamp sync is pending.
 
 ## Exact next action
 
-Await the public phone and confirmed street address. In a later run, verify propagated apex and `www` once, then complete call links, `GMB-INFO.txt`, and GeoStamp.
+Recheck the custom hosts and sync the confirmed address to GeoStamp.
