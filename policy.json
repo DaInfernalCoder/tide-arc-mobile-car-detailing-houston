@@ -1,0 +1,68 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), microphone=(), geolocation=()"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.tidearc.shop",
+      "apexName": "tidearc.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "tidearc.shop",
+      "apexName": "tidearc.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/detail-buffing.jpg",
+    "/assets/detail-glass.jpg",
+    "/assets/detail-polish.jpg",
+    "/assets/detail-pressure.jpg",
+    "/assets/detail-wet-paint.jpg",
+    "/assets/favicon.svg",
+    "/assets/hero-route.jpg",
+    "/assets/logo.svg",
+    "/assets/service-foam.jpg",
+    "/assets/service-interior.jpg",
+    "/assets/service-wheel.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/exterior-car-detailing/index.html",
+    "/services/headlight-restoration/index.html",
+    "/services/index.html",
+    "/services/interior-car-detailing/index.html",
+    "/services/mobile-car-wash/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
