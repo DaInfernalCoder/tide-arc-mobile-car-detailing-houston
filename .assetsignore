@@ -13,3 +13,4 @@ node_modules
 /DESIGN.md
 /scripts/preflight_site.py
 /scripts/check_live.py
+.github
